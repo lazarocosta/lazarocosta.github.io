@@ -1,0 +1,12 @@
+{
+  "cwd": "${workspaceRoot}",
+  "name": "Attach rdebug-ide",
+  "request": "attach",
+  "remoteHost": "localhost",
+  "remotePort": "4000",
+  "remoteWorkspaceRoot": "/",
+  "restart": true,
+  "showDebuggerOutput": true,
+  "stopOnEntry": true,
+  "type": "Ruby"
+}
