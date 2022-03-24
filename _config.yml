@@ -33,21 +33,20 @@ author: "John Smith"
 title: "Lázaro Costa"
 description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
 keywords: "smith, jones, personal, jekyll, theme"
-favicon: "/img/lazaro.jpg"
+favicon: "../img/lazaro.jpg"
 
 ################
 # Header layout #
 ################
 
 black-favicon: ""
-logo: "/img/lazaro.jpg" # leave blank if you don't want a logo
+logo: "../img/lazaro.jpg" # leave blank if you don't want a logo
 
 background-img: "../img/FEUP-background.jpg"
 
 ##############################
 # Dynamic Text on the Header #
 ##############################
-
 dynamic-typing: True
 shuffle: True # Shuffle the lines.
 loop: True
