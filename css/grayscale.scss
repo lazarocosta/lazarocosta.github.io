@@ -172,10 +172,11 @@ a {
 }
 
 .intro {
+    margin: auto;
+    margin-top: 7em!important;
     display: table;
-    width: 100%;
+    width: 90%;
     height: auto;
-    padding: 100px 0;
     text-align: center;
     color: $intro-text-color;
     {% if site.background-img %}
@@ -188,12 +189,13 @@ a {
     -o-background-size: cover;
     .intro-body {
         display: table-cell;
-        vertical-align: middle;
+        vertical-align: top;
         .brand-heading {
             font-size: 40px;
         }
         .intro-text {
-            font-size: 18px;
+            font-size: 40px!important;
+            color: darkred;
             @if $navbar-text-shadow {
                 text-shadow: 1px 0 1px #000;
             }

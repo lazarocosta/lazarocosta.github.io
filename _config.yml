@@ -33,16 +33,16 @@ author: "John Smith"
 title: "Lázaro Costa"
 description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
 keywords: "smith, jones, personal, jekyll, theme"
-favicon: "/img/favicon.ico"
+favicon: "/img/lazaro.jpg"
 
 ################
 # Header layout #
 ################
 
 black-favicon: ""
-logo: "/img/timeline/lazaro.jpg" # leave blank if you don't want a logo
+logo: "/img/lazaro.jpg" # leave blank if you don't want a logo
 
-background-img: "../img/intro-bg.jpg"
+background-img: "../img/FEUP-background.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -56,10 +56,10 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "The secret to success is knowing something that no one else knows [Aristóteles]."
+# - text: "Where’s your will to be weird?"
 
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/lazaro.jpg"
 
 # To use facebook profile pic comment the previous line and uncomment the following
 # line, and replace 'user_id' with your facebook user id.
@@ -112,20 +112,33 @@ post-preview-words: 96
 
 paginate: 5
 
-email-share: True
-fb-share: True
-twitter-share: True
-linkedin-share: True
-reddit-share: True
-google-plus-share: True
-tumblr-share: True
-pinterest-share: True
-pocket-share: True
-vkontakte-share: True
+email-share: false
+fb-share: False
+twitter-share: False
+linkedin-share: False
+reddit-share: False
+google-plus-share: False
+tumblr-share: False
+pinterest-share: False
+pocket-share: False
+vkontakte-share: False
 
 disqus-shortname: "personal-jekyll-theme"
 
 syntax-highlight: True
+
+
+#################
+# Projects #
+############
+collections:
+ publications:
+    sort_by: year
+    permalink: /publications/:year/:month/:day/:title:output_ext
+ projects:
+    sort_by: year
+    permalink: /projects/:year/:month/:day/:title:output_ext
+
 
 ############
 # Timeline #
@@ -143,14 +156,14 @@ events:
     description: "Full-Stack Developer (www.inesctec.pt/en/projects/ icon)"
   - image: "/img/timeline/INESCTEC.png"
     date: "May 2020 - September 2021"
-    description: "Full-Stack Developer (wwww.inesctec.pt/pt/projetos/episa)"
+    description: "Full-Stack Developer (www.inesctec.pt/pt/projetos/episa)"
   - image: "/img/timeline/phdStudent.jpg"
     date: "September 2021 - Today"
     description: "PhD student at FEUP"
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/lazaro.jpg"
+timeline-img: "/img/lazaro.jpg"
 
 ###########
 # Contact #
@@ -170,8 +183,8 @@ pgp: False
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb_image: "/img/author.png"
+#author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
+#author_blurb_image: "/img/author.png"
 
 ##################
 # Social Buttons #
@@ -204,8 +217,8 @@ keybase-in-footer: True
 # Sections shown in the index page
 
 pages_list:
-  Home: 'about'
-  Blog: 'latest-post'
+  About: 'about'
+  #Blog: 'latest-post'
   Projects: 'projects'
   Publications: 'publications'
   Work experience: 'timeline'

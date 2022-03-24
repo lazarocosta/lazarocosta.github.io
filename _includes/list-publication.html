@@ -1,0 +1,20 @@
+
+<!-- Post List Start -->
+
+<h4 align="left">
+<!--  <strong>{{ post.date | date_to_string }}</strong>-->
+  <small>
+    <a class="category" href="{{site.baseurl}}/{{ post.category | downcase }}.html">
+      <p>{{site.baseurl}}/{{ post.category | downcase }}</p>
+      <p>{{post.url | downcase }}</p>
+  </small>asasasas
+  <br class="visible-xs-block">
+  <strong>{{ post.year}}</strong>
+
+  <a href="{{site.baseurl}}{{post.url}}">
+    <strong>{{ post.title }}</strong>
+  </a>
+
+  <br class="visible-xs-block">
+</h4>
+
