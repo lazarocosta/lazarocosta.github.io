@@ -1,6 +1,6 @@
 # Personal Site
 
-`https://lazarocosta.github.io/`
+Lázaro's personal [WebPage](https://lazarocosta.github.io/)
 
 ### Development
 
