@@ -137,6 +137,9 @@ collections:
  projects:
     sort_by: year
     permalink: /projects/:year/:month/:day/:title:output_ext
+ organizations:
+   sort_by: year
+   permalink: /organizations/:year/:month/:day/:title:output_ext
 
 
 ############
@@ -168,7 +171,7 @@ timeline-img: "/img/lazaro.jpg"
 # Contact #
 ###########
 
-email: "lazaroosta@hotmail.com"
+email: "lazaro@fe.up.pt"
 
 
 # Set a url pointing to your publish PGP Public Key here, and it will appear in the Contact section
@@ -220,6 +223,7 @@ pages_list:
   #Blog: 'latest-post'
   Projects: 'projects'
   Publications: 'publications'
+  Organizations: 'organizations'
   Work experience: 'timeline'
   Contact: 'contact'
 
